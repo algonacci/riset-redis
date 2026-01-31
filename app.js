@@ -5,7 +5,7 @@ const { db } = require("./db");
 const { handleCache } = require("./helpers/cacheHandler");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 9955;
 
 app.get("/", async (req, res) => {
   const start = Date.now();
